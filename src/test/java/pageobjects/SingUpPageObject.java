@@ -16,9 +16,12 @@ public class SingUpPageObject {
 
 	@FindBy (xpath = "//input[@ng-model=\"FirstName\"]" )
 	private WebElement firstNameTextBox;
-
 	@FindBy (xpath = "//input[@ng-model=\"LastName\"]" )
 	private WebElement lastNameTextBox;
+
+	@FindBy (xpath = "//input[@ng-model=\"EmailAdress\"]" )
+	private WebElement emailTextBox;
+
 
 
 
