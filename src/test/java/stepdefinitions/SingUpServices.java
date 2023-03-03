@@ -19,4 +19,5 @@ public class SingUpServices {
 	public void writeLastName(String lastName) {
 		this.singUpPageObject.getLastNameTextBox().sendKeys(lastName);
 	}
+
 }
